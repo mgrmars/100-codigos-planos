@@ -1,5 +1,3 @@
-package pkg100codigoplanoejercicio9b;
-
 import java.util.Scanner;
 
 public class Main {
