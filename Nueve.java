@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Nueve {
     public static void main(String[] args) {
         /*
         Obtener el IGV (18%) de una venta
