@@ -8,6 +8,7 @@ public class Nueve {
         aplicar un descuento del 25 %.
          */
         Scanner s = new Scanner(System.in);
+
         double venta, igv, descuento, total;
 
         System.out.println("Ingresa el valor de venta: ");
@@ -17,6 +18,8 @@ public class Nueve {
         descuento = venta > 150000 ? venta * 0.25 : 0;
         total = venta - descuento + igv;
 
-        System.out.println("IGV: " + igv + "\n" + "Descuento: " + "descuento " + "\n" + "Total: " + total);
+        System.out.println("IGV: " + igv);
+        System.out.println("Descuento: " + descuento);
+        System.out.println("Total: " + total);
     }
 }
